@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56F20D4C28B204CB00E2AC63 /* HandsonSpriteKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D4B28B204CB00E2AC63 /* HandsonSpriteKitApp.swift */; };
+		56F20D4E28B204CB00E2AC63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D4D28B204CB00E2AC63 /* ContentView.swift */; };
+		56F20D5028B204CE00E2AC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F20D4F28B204CE00E2AC63 /* Assets.xcassets */; };
+		56F20D5328B204CE00E2AC63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F20D5228B204CE00E2AC63 /* Preview Assets.xcassets */; };
+		56F20D5D28B204CE00E2AC63 /* HandsonSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D5C28B204CE00E2AC63 /* HandsonSpriteKitTests.swift */; };
+		56F20D6728B204CE00E2AC63 /* HandsonSpriteKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D6628B204CE00E2AC63 /* HandsonSpriteKitUITests.swift */; };
+		56F20D6928B204CE00E2AC63 /* HandsonSpriteKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D6828B204CE00E2AC63 /* HandsonSpriteKitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56F20D5928B204CE00E2AC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F20D4028B204CB00E2AC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F20D4728B204CB00E2AC63;
+			remoteInfo = HandsonSpriteKit;
+		};
+		56F20D6328B204CE00E2AC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F20D4028B204CB00E2AC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F20D4728B204CB00E2AC63;
+			remoteInfo = HandsonSpriteKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56F20D4828B204CB00E2AC63 /* HandsonSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandsonSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F20D4B28B204CB00E2AC63 /* HandsonSpriteKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsonSpriteKitApp.swift; sourceTree = "<group>"; };
+		56F20D4D28B204CB00E2AC63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56F20D4F28B204CE00E2AC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F20D5228B204CE00E2AC63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56F20D5828B204CE00E2AC63 /* HandsonSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandsonSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F20D5C28B204CE00E2AC63 /* HandsonSpriteKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsonSpriteKitTests.swift; sourceTree = "<group>"; };
+		56F20D6228B204CE00E2AC63 /* HandsonSpriteKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandsonSpriteKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F20D6628B204CE00E2AC63 /* HandsonSpriteKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsonSpriteKitUITests.swift; sourceTree = "<group>"; };
+		56F20D6828B204CE00E2AC63 /* HandsonSpriteKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsonSpriteKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F20D4528B204CB00E2AC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F20D5528B204CE00E2AC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F20D5F28B204CE00E2AC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F20D3F28B204CB00E2AC63 = {
+			isa = PBXGroup;
+			children = (
+				56F20D4A28B204CB00E2AC63 /* HandsonSpriteKit */,
+				56F20D5B28B204CE00E2AC63 /* HandsonSpriteKitTests */,
+				56F20D6528B204CE00E2AC63 /* HandsonSpriteKitUITests */,
+				56F20D4928B204CB00E2AC63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56F20D4928B204CB00E2AC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F20D4828B204CB00E2AC63 /* HandsonSpriteKit.app */,
+				56F20D5828B204CE00E2AC63 /* HandsonSpriteKitTests.xctest */,
+				56F20D6228B204CE00E2AC63 /* HandsonSpriteKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56F20D4A28B204CB00E2AC63 /* HandsonSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				56F20D4B28B204CB00E2AC63 /* HandsonSpriteKitApp.swift */,
+				56F20D4D28B204CB00E2AC63 /* ContentView.swift */,
+				56F20D4F28B204CE00E2AC63 /* Assets.xcassets */,
+				56F20D5128B204CE00E2AC63 /* Preview Content */,
+			);
+			path = HandsonSpriteKit;
+			sourceTree = "<group>";
+		};
+		56F20D5128B204CE00E2AC63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56F20D5228B204CE00E2AC63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56F20D5B28B204CE00E2AC63 /* HandsonSpriteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				56F20D5C28B204CE00E2AC63 /* HandsonSpriteKitTests.swift */,
+			);
+			path = HandsonSpriteKitTests;
+			sourceTree = "<group>";
+		};
+		56F20D6528B204CE00E2AC63 /* HandsonSpriteKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56F20D6628B204CE00E2AC63 /* HandsonSpriteKitUITests.swift */,
+				56F20D6828B204CE00E2AC63 /* HandsonSpriteKitUITestsLaunchTests.swift */,
+			);
+			path = HandsonSpriteKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56F20D4728B204CB00E2AC63 /* HandsonSpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F20D6C28B204CE00E2AC63 /* Build configuration list for PBXNativeTarget "HandsonSpriteKit" */;
+			buildPhases = (
+				56F20D4428B204CB00E2AC63 /* Sources */,
+				56F20D4528B204CB00E2AC63 /* Frameworks */,
+				56F20D4628B204CB00E2AC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandsonSpriteKit;
+			productName = HandsonSpriteKit;
+			productReference = 56F20D4828B204CB00E2AC63 /* HandsonSpriteKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56F20D5728B204CE00E2AC63 /* HandsonSpriteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F20D6F28B204CE00E2AC63 /* Build configuration list for PBXNativeTarget "HandsonSpriteKitTests" */;
+			buildPhases = (
+				56F20D5428B204CE00E2AC63 /* Sources */,
+				56F20D5528B204CE00E2AC63 /* Frameworks */,
+				56F20D5628B204CE00E2AC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F20D5A28B204CE00E2AC63 /* PBXTargetDependency */,
+			);
+			name = HandsonSpriteKitTests;
+			productName = HandsonSpriteKitTests;
+			productReference = 56F20D5828B204CE00E2AC63 /* HandsonSpriteKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56F20D6128B204CE00E2AC63 /* HandsonSpriteKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F20D7228B204CE00E2AC63 /* Build configuration list for PBXNativeTarget "HandsonSpriteKitUITests" */;
+			buildPhases = (
+				56F20D5E28B204CE00E2AC63 /* Sources */,
+				56F20D5F28B204CE00E2AC63 /* Frameworks */,
+				56F20D6028B204CE00E2AC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F20D6428B204CE00E2AC63 /* PBXTargetDependency */,
+			);
+			name = HandsonSpriteKitUITests;
+			productName = HandsonSpriteKitUITests;
+			productReference = 56F20D6228B204CE00E2AC63 /* HandsonSpriteKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56F20D4028B204CB00E2AC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					56F20D4728B204CB00E2AC63 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					56F20D5728B204CE00E2AC63 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 56F20D4728B204CB00E2AC63;
+					};
+					56F20D6128B204CE00E2AC63 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 56F20D4728B204CB00E2AC63;
+					};
+				};
+			};
+			buildConfigurationList = 56F20D4328B204CB00E2AC63 /* Build configuration list for PBXProject "HandsonSpriteKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56F20D3F28B204CB00E2AC63;
+			productRefGroup = 56F20D4928B204CB00E2AC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56F20D4728B204CB00E2AC63 /* HandsonSpriteKit */,
+				56F20D5728B204CE00E2AC63 /* HandsonSpriteKitTests */,
+				56F20D6128B204CE00E2AC63 /* HandsonSpriteKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F20D4628B204CB00E2AC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F20D5328B204CE00E2AC63 /* Preview Assets.xcassets in Resources */,
+				56F20D5028B204CE00E2AC63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F20D5628B204CE00E2AC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F20D6028B204CE00E2AC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F20D4428B204CB00E2AC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F20D4E28B204CB00E2AC63 /* ContentView.swift in Sources */,
+				56F20D4C28B204CB00E2AC63 /* HandsonSpriteKitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F20D5428B204CE00E2AC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F20D5D28B204CE00E2AC63 /* HandsonSpriteKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F20D5E28B204CE00E2AC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F20D6928B204CE00E2AC63 /* HandsonSpriteKitUITestsLaunchTests.swift in Sources */,
+				56F20D6728B204CE00E2AC63 /* HandsonSpriteKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56F20D5A28B204CE00E2AC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F20D4728B204CB00E2AC63 /* HandsonSpriteKit */;
+			targetProxy = 56F20D5928B204CE00E2AC63 /* PBXContainerItemProxy */;
+		};
+		56F20D6428B204CE00E2AC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F20D4728B204CB00E2AC63 /* HandsonSpriteKit */;
+			targetProxy = 56F20D6328B204CE00E2AC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56F20D6A28B204CE00E2AC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56F20D6B28B204CE00E2AC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56F20D6D28B204CE00E2AC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandsonSpriteKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuki-blur.HandsonSpriteKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56F20D6E28B204CE00E2AC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandsonSpriteKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuki-blur.HandsonSpriteKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56F20D7028B204CE00E2AC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuki-blur.HandsonSpriteKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandsonSpriteKit.app/HandsonSpriteKit";
+			};
+			name = Debug;
+		};
+		56F20D7128B204CE00E2AC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuki-blur.HandsonSpriteKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandsonSpriteKit.app/HandsonSpriteKit";
+			};
+			name = Release;
+		};
+		56F20D7328B204CE00E2AC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuki-blur.HandsonSpriteKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandsonSpriteKit;
+			};
+			name = Debug;
+		};
+		56F20D7428B204CE00E2AC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuki-blur.HandsonSpriteKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandsonSpriteKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56F20D4328B204CB00E2AC63 /* Build configuration list for PBXProject "HandsonSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F20D6A28B204CE00E2AC63 /* Debug */,
+				56F20D6B28B204CE00E2AC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F20D6C28B204CE00E2AC63 /* Build configuration list for PBXNativeTarget "HandsonSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F20D6D28B204CE00E2AC63 /* Debug */,
+				56F20D6E28B204CE00E2AC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F20D6F28B204CE00E2AC63 /* Build configuration list for PBXNativeTarget "HandsonSpriteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F20D7028B204CE00E2AC63 /* Debug */,
+				56F20D7128B204CE00E2AC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F20D7228B204CE00E2AC63 /* Build configuration list for PBXNativeTarget "HandsonSpriteKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F20D7328B204CE00E2AC63 /* Debug */,
+				56F20D7428B204CE00E2AC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56F20D4028B204CB00E2AC63 /* Project object */;
+}
