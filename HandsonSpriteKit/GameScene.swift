@@ -23,6 +23,7 @@ class GameScene: SKScene {
     let finishLabelName = "finishLabelName"
     
     var targetShapeCount = 0
+    let targetShapeCountLimit = 10
     let targetShapeNamePrefix = "targetShapelName_"
     
     var actionFadeIn: SKAction?
@@ -64,7 +65,7 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         if state == .Playing {
-            if Int.random(in: 0...100) == 0 {
+            if Int.random(in: 0...100) == 0 && targetShapeCount < targetShapeCountLimit {
                 targetShapeCount += 1
                 let circleOfRadius: CGFloat = 50.0
                 let x: CGFloat = CGFloat.random(in: (self.frame.minX + circleOfRadius)...(self.frame.maxX - circleOfRadius))
