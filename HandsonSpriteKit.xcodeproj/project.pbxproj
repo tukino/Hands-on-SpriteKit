@@ -14,6 +14,7 @@
 		56F20D5D28B204CE00E2AC63 /* HandsonSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D5C28B204CE00E2AC63 /* HandsonSpriteKitTests.swift */; };
 		56F20D6728B204CE00E2AC63 /* HandsonSpriteKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D6628B204CE00E2AC63 /* HandsonSpriteKitUITests.swift */; };
 		56F20D6928B204CE00E2AC63 /* HandsonSpriteKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D6828B204CE00E2AC63 /* HandsonSpriteKitUITestsLaunchTests.swift */; };
+		56F20D7628B204E300E2AC63 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20D7528B204E300E2AC63 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		56F20D6228B204CE00E2AC63 /* HandsonSpriteKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandsonSpriteKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F20D6628B204CE00E2AC63 /* HandsonSpriteKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsonSpriteKitUITests.swift; sourceTree = "<group>"; };
 		56F20D6828B204CE00E2AC63 /* HandsonSpriteKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsonSpriteKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56F20D7528B204E300E2AC63 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		56F20D7728B2137900E2AC63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		56F20D3F28B204CB00E2AC63 = {
 			isa = PBXGroup;
 			children = (
+				56F20D7728B2137900E2AC63 /* README.md */,
 				56F20D4A28B204CB00E2AC63 /* HandsonSpriteKit */,
 				56F20D5B28B204CE00E2AC63 /* HandsonSpriteKitTests */,
 				56F20D6528B204CE00E2AC63 /* HandsonSpriteKitUITests */,
@@ -96,6 +100,7 @@
 			children = (
 				56F20D4B28B204CB00E2AC63 /* HandsonSpriteKitApp.swift */,
 				56F20D4D28B204CB00E2AC63 /* ContentView.swift */,
+				56F20D7528B204E300E2AC63 /* GameScene.swift */,
 				56F20D4F28B204CE00E2AC63 /* Assets.xcassets */,
 				56F20D5128B204CE00E2AC63 /* Preview Content */,
 			);
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F20D7628B204E300E2AC63 /* GameScene.swift in Sources */,
 				56F20D4E28B204CB00E2AC63 /* ContentView.swift in Sources */,
 				56F20D4C28B204CB00E2AC63 /* HandsonSpriteKitApp.swift in Sources */,
 			);

@@ -1,6 +1,6 @@
 //
 //  GameScene.swift
-//  MatchingGame
+//  HandsonSpriteKit
 //
 //  Created by tukino_salva on 2022/08/21.
 //
